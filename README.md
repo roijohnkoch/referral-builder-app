@@ -4,8 +4,8 @@ A simple web application for creating and displaying referrals.
 
 ## Technology Stacks
 
-[React + Typescript + Vite](https://vite.dev/)
-[SASS](https://sass-lang.com/)
+- [React + Typescript + Vite](https://vite.dev/)
+- [SASS](https://sass-lang.com/)
 
 ## Project Setup
 ```bash
