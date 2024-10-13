@@ -1,0 +1,44 @@
+.preview_container {
+    background-color: #fff;
+    padding: 1rem;
+    overflow: auto;
+    height: 500px;
+    margin: auto 1rem;
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        color: #acacac;
+    }
+
+    tr {
+        border-bottom: 1px solid #ddd;
+    }
+
+    th {
+        text-align: left;
+    }
+
+    td {
+        padding: 12px 0;
+        max-width: 100px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .icon-buttons_container {
+        display: flex;
+        gap: 12px;
+        .icon-buttons {
+            cursor: pointer;
+        }
+    }
+
+    .no-data {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        color: #acacac;
+    }
+}
